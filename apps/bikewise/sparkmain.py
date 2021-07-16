@@ -22,10 +22,7 @@ def main():
         filestatus=bookmark_data[key]
       
     if filestatus == "Copied":
-        data_into_table(spark,hdfs_path,filedate,database_path,bookmark_path)
-    
-    
-    
+        data_into_table(spark,hdfs_path,filedate,database_path,bookmark_path)    
     
     
 if __name__ == '__main__':
