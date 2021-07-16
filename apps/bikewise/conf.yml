@@ -1,0 +1,16 @@
+dev:
+    URL: https://bikewise.org/api/v2/incidents?per_page=10000
+    DIR_PATH: /home/itv000547/airflow-examples/data/bikewise
+    FILE_FORMAT: json
+    BOOKMARK_PATH: /home/itv000547/airflow-examples/bookmark/bikewise_bookmark/bikewise-bookmark.json
+    HDFS_PATH: /user/itv000547/bikewise/data
+    DATABASE_PATH: /user/itv000547/warehouse
+    
+
+lab:
+    URL: https://bikewise.org/api/v2/incidents?per_page=10000
+    DIR_PATH: /home/itv000547/airflow-examples/data/bikewise
+    FILE_FORMAT: json
+    BOOKMARK_PATH: /home/itv000547/airflow-examples/bookmark/bikewise_bookmark/bikewise-bookmark.json
+    HDFS_PATH: /user/itv000547/bikewise/data
+    DATABASE_PATH: /user/itv000547/warehouse
